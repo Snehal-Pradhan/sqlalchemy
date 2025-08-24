@@ -1,0 +1,7 @@
+.venv
+.pytest_cache
+database_factory/__pycache__
+tests/__pycache__
+__pycache__
+dist
+database_factory_snehal.egg-info
