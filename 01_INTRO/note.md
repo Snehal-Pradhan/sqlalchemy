@@ -50,7 +50,10 @@ url looks like this :
     - here it creates a .db file to store data
     - **Absolute Path vs Relative Path** 
     ```python
-    db_url = "sqlite:////" # absolute path or
+    db_url = "sqlite:////" #(in unix systems) 
+    # in a windows machine it looks like sqlite:///C:/sqlalchemy...
+    
+    # absolute path or
     db_url_anotherone = "sqlite:///" # relative one
     ```
 ### How engine connection code looks like?
